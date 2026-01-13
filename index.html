@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Time Table (Exact)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOP TITLE BAR -->
+  <div class="topbar">
+    <div class="title-left">
+      <div class="big">YESHWANTRAO CHAVAN COLLEGE OF ENGINEERING</div>
+      <div class="sub">Semester--IV</div>
+      <div class="sub">Section--B</div>
+    </div>
+
+    <div class="title-mid">
+      <div class="big">Department of Computer Science and Engineering</div>
+      <div class="midbox">
+        <div class="boxtext">Academic Time Table (Term-II)</div>
+        <div class="version">Version-I</div>
+      </div>
+    </div>
+
+    <div class="title-right">
+      <div class="big">SESSION 2025-2026</div>
+      <div class="wef">W.e.f. 29.12.2025</div>
+    </div>
+  </div>
+
+  <!-- TIMETABLE -->
+  <div class="wrap">
+    <table class="tt">
+      <thead>
+        <tr>
+          <th class="th-time" rowspan="2">Time</th>
+
+          <th class="th-time-slot">9:00 To 10:00</th>
+          <th class="th-time-slot">10:00 To 11:00</th>
+          <th class="th-time-slot">11:00 To 12:00</th>
+          <th class="th-time-slot">12:00 To 01:00</th>
+          <th class="th-time-slot">01:00 To 02:00</th>
+          <th class="th-time-slot">02:00 To 03:00</th>
+          <th class="th-time-slot">03:00 To 04:00</th>
+          <th class="th-time-slot">04:00 To 05:00</th>
+        </tr>
+
+        <tr>
+          <th class="th-period">1</th>
+          <th class="th-period">2</th>
+          <th class="th-period">3</th>
+          <th class="th-period">4</th>
+          <th class="th-period">5</th>
+          <th class="th-period">6</th>
+          <th class="th-period">7</th>
+          <th class="th-period">8</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <!-- MONDAY (3 ROWS) -->
+        <tr>
+          <th class="day" rowspan="3">Monday</th>
+          <th class="lbl">Subject Abbr.</th>
+
+          <td class="c-oe">OE-II</td>
+          <td class="c-dmgt">DMGT</td>
+          <td class="c-ida">IDA</td>
+
+          <td class="c-recess" rowspan="6">RECESS</td>
+
+          <td class="c-lang">Marathi/Hindi</td>
+          <td class="c-ida">IDA</td>
+
+          <td class="c-labpink" colspan="2">OS(B1/B2)/IDA(B3/B4)</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-oe">(VRK/SSK/RGB)</td>
+          <td class="c-dmgt">SAS</td>
+          <td class="c-ida">JND</td>
+
+          <td class="c-lang blank"></td>
+          <td class="c-ida">JND</td>
+
+          <td class="c-labpink" colspan="2">LBD,ATP/JND,RAF</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-oe">M2-3/M2-4/M2-5</td>
+          <td class="c-dmgt">M2-3</td>
+          <td class="c-ida">M2-3</td>
+
+          <td class="c-lang redbig">M2-2/M2-3</td>
+          <td class="c-ida">M2-3</td>
+
+          <td class="c-labpink" colspan="2">CSE LAB 3,4/LAB 5,6</td>
+        </tr>
+
+        <!-- TUESDAY -->
+        <tr>
+          <th class="day" rowspan="3">Tuesday</th>
+          <th class="lbl">Subject Abbr.</th>
+
+          <td class="c-oe">OE-II</td>
+          <td class="c-wtcyan" colspan="2">WT(B1,B2,B3,B4)</td>
+          <td class="c-os">OS</td>
+
+          <td class="c-remedial" rowspan="3">Remedial Classes</td>
+
+          <td class="c-ed">ED</td>
+          <td class="c-espm">ESPM</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-oe">(VRK/SSK/RGB)</td>
+          <td class="c-wtcyan" colspan="2">SPD,PPW,RRP,NPG</td>
+          <td class="c-os">LBD</td>
+
+          <td class="c-ed">VDB</td>
+          <td class="c-espm">MRW</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-oe">M2-3/M2-4/M2-6</td>
+          <td class="c-wtcyan" colspan="2">CSE LAB 1,2,7,8</td>
+          <td class="c-os">M2-3</td>
+
+          <td class="c-ed">M2-3</td>
+          <td class="c-espm">M2-4</td>
+        </tr>
+
+        <!-- WEDNESDAY -->
+        <tr>
+          <th class="day" rowspan="3">Wednesday</th>
+          <th class="lbl">Subject Abbr.</th>
+
+          <td class="c-blank"></td>
+          <td class="c-wtcyan" colspan="2">WT(B1,B2,B3,B4)</td>
+          <td class="c-os">OS</td>
+
+          <td class="c-blank"></td>
+
+          <td class="c-espm">ESPM</td>
+          <td class="c-ida">IDA</td>
+          <td class="c-dmgt2">DMGT</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-blank"></td>
+          <td class="c-wtcyan" colspan="2">SPD,PPW,RRP,NPG</td>
+          <td class="c-os">LBD</td>
+
+          <td class="c-blank"></td>
+
+          <td class="c-espm">MRW</td>
+          <td class="c-ida">JND</td>
+          <td class="c-dmgt2">SAS</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-blank"></td>
+          <td class="c-wtcyan" colspan="2">CSE LAB 1,2,7,8</td>
+          <td class="c-os">M2-3</td>
+
+          <td class="c-blank"></td>
+
+          <td class="c-espm">M2-4</td>
+          <td class="c-ida">M2-3</td>
+          <td class="c-dmgt2">M2-3</td>
+        </tr>
+
+        <!-- THURSDAY -->
+        <tr>
+          <th class="day" rowspan="3">Thursday</th>
+          <th class="lbl">Subject Abbr.</th>
+
+          <td class="c-blank"></td>
+          <td class="c-pinklab" colspan="2">IDA(ED)(B1/B2)/OS(B3/B4)</td>
+
+          <td class="c-library" rowspan="3">LIBRARY</td>
+
+          <td class="c-recess2" rowspan="3">RECESS</td>
+
+          <td class="c-mdm">DM-II (OOC/FDIP/DP)</td>
+          <td class="c-dmgt">DMGT</td>
+          <td class="c-blank"></td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-blank"></td>
+          <td class="c-pinklab" colspan="2">JND,NPG/LBD,ATP</td>
+
+          <td class="c-mdm">BAK/SPD/CAT</td>
+          <td class="c-dmgt">SAS</td>
+          <td class="c-blank"></td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-blank"></td>
+          <td class="c-pinklab" colspan="2">CSE LAB 5,6/LAB 3,4</td>
+
+          <td class="c-mdm">M2-3/M2-4/M2-5</td>
+          <td class="c-dmgt">M2-3</td>
+          <td class="c-blank"></td>
+        </tr>
+
+        <!-- FRIDAY -->
+        <tr>
+          <th class="day" rowspan="3">Friday</th>
+          <th class="lbl">Subject Abbr.</th>
+
+          <td class="c-blank"></td>
+          <td class="c-lang">Marathi/Hindi</td>
+          <td class="c-os">OS</td>
+          <td class="c-ed">ED</td>
+
+          <td class="c-recess2" rowspan="3">RECESS</td>
+
+          <td class="c-mdm">DM-II (OOC/FDIP/DP)</td>
+          <td class="c-sports" colspan="2" rowspan="3">SPORTS / CLUB</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-blank"></td>
+          <td class="c-lang blank"></td>
+          <td class="c-os">LBD</td>
+          <td class="c-ed">VDB</td>
+
+          <td class="c-mdm">BAK/SPD/CAT</td>
+        </tr>
+
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-blank"></td>
+          <td class="c-lang redbig">M2-2/M2-3</td>
+          <td class="c-os">M2-3</td>
+          <td class="c-ed">M2-3</td>
+
+          <td class="c-mdm">M2-3/M2-4/M2-5</td>
+        </tr>
+
+        <!-- SATURDAY -->
+        <tr>
+          <th class="day" rowspan="3">Saturday</th>
+          <th class="lbl">Subject Abbr.</th>
+          <td class="c-blank" colspan="8"></td>
+        </tr>
+        <tr>
+          <th class="lbl">Faculty Abbr.</th>
+          <td class="c-blank" colspan="8"></td>
+        </tr>
+        <tr>
+          <th class="lbl">Room No.</th>
+          <td class="c-blank" colspan="8"></td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <!-- FOOT NOTES -->
+    <div class="foot">
+      <div class="bgrp">B1 → 01 to 20<br/>B2 → 21 to 38</div>
+      <div class="bgrp">B3 → 39 to 56<br/>B4 → 57 Onwards</div>
+    </div>
+  </div>
+
+</body>
+</html>
