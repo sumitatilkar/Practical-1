@@ -1,0 +1,194 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#fff;
+  padding:12px;
+}
+
+/* ======= TOP BAR ======= */
+.topbar{
+  display:grid;
+  grid-template-columns: 1.4fr 1.8fr 1fr;
+  gap:8px;
+  border:2px solid #000;
+  padding:10px;
+  margin-bottom:8px;
+}
+
+.big{
+  font-weight:900;
+  font-size:18px;
+  text-transform:uppercase;
+}
+
+.sub{
+  font-weight:800;
+  margin-top:4px;
+}
+
+.title-mid{
+  text-align:center;
+}
+
+.midbox{
+  margin-top:6px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:12px;
+}
+
+.boxtext{
+  border:2px solid #000;
+  padding:6px 12px;
+  font-weight:900;
+}
+
+.version{
+  border:2px solid #000;
+  background:#ff40ff;
+  font-weight:900;
+  padding:6px 16px;
+}
+
+.title-right{
+  text-align:right;
+}
+
+.wef{
+  margin-top:6px;
+  background:yellow;
+  border:2px solid #000;
+  padding:6px 10px;
+  font-weight:900;
+  display:inline-block;
+}
+
+/* ======= TABLE ======= */
+.wrap{
+  border:2px solid #000;
+  overflow-x:auto;
+  padding:0;
+}
+
+.tt{
+  border-collapse:collapse;
+  width:100%;
+  min-width:1200px;
+}
+
+.tt th, .tt td{
+  border:1.5px solid #000;
+  text-align:center;
+  padding:6px 6px;
+  font-size:14px;
+  font-weight:800;
+}
+
+.th-time{
+  width:120px;
+  background:#d9d9d9;
+  font-weight:900;
+}
+
+.th-time-slot{
+  background:#98fb98; /* green header like image */
+  font-weight:900;
+}
+
+.th-period{
+  background:#98fb98;
+  font-weight:900;
+  font-size:20px;
+}
+
+.day{
+  width:90px;
+  background:#d9d9d9;
+  font-weight:900;
+  font-size:16px;
+}
+
+.lbl{
+  width:120px;
+  background:#d9d9d9;
+  font-weight:900;
+}
+
+/* ======= COLORS (exact style) ======= */
+.c-blank{ background:#ffffff; }
+
+.c-oe{ background:#cfefff; }         /* light sky blue */
+.c-dmgt{ background:#d7ffff; }       /* very light cyan */
+.c-dmgt2{ background:#cfd0ff; }      /* light lavender */
+.c-ida{ background:#d9eac7; }        /* light green */
+.c-os{ background:#b9d8ff; }         /* blue */
+.c-wtcyan{ background:#19f2ff; }     /* strong cyan */
+.c-lang{ background:#ffe46e; }       /* yellow */
+.c-ed{ background:#f9c8d3; }         /* light pink */
+.c-espm{ background:#e7c5ff; }       /* purple */
+.c-labpink{ background:#ff8f99; }    /* red/pink lab */
+.c-pinklab{ background:#e6a2a2; }    /* darker lab pink */
+.c-mdm{ background:#bfecc0; }        /* light green block */
+.c-library{
+  background:#ffffff;
+  font-weight:900;
+  font-size:20px;
+}
+.c-remedial{
+  background:#ffffff;
+  font-weight:900;
+}
+
+/* recess cells */
+.c-recess{
+  background:#ffffff;
+  color:#cc0000;
+  font-weight:900;
+  font-size:26px;
+  letter-spacing:1px;
+}
+.c-recess2{
+  background:#ffffff;
+  color:#cc0000;
+  font-weight:900;
+  font-size:26px;
+}
+
+/* highlight red room text like in image */
+.redbig{
+  color:#cc0000;
+  font-size:20px;
+  font-weight:900;
+}
+
+.blank{
+  color:transparent; /* keeps row height clean */
+}
+
+/* SPORTS / CLUB */
+.c-sports{
+  background:#ffffff;
+  color:#ff00cc;
+  font-size:30px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+/* FOOT NOTE */
+.foot{
+  display:flex;
+  justify-content:space-between;
+  padding:12px;
+  font-weight:900;
+}
+
+.bgrp{
+  color:#cc0000;
+  font-size:22px;
+}
